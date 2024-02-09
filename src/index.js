@@ -9,7 +9,7 @@ function BookList() {
 
   return (
     <>
-    <h1>Amazon Best Sellers</h1>
+    <h1>Amazon huy Sellers</h1>
     <section className='bookList'>
       {books.map((book, index) => {
         return <Book {...book} key={book.id} number={index} />;
